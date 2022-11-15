@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/BigOrangeText"
+            android:text="Первый TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/BigOrangeText"
+            android:text="Второй TextView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/BigOrangeText"
+            android:text="Третий TextView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/BigOrangeText"
+            android:text="Четвертый TextView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                style="@style/OrangeButton"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/OrangeButton"
+                android:text="Button" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
